@@ -2,3 +2,10 @@ body {
   background-color: rgb(116, 246, 255);
   zoom: 4;
 }
+
+h1#results-label {
+  border: 1px;
+  border-color: black;
+}
+button#numberBtn {
+}

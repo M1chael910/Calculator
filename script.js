@@ -4,13 +4,13 @@ function Calculate(operation) {
   const resultLabel = document.getElementById("results-label");
   let x = Number(firstBox.value);
   let y = Number(secondBox.value);
-  if (operation == 1) {
-    resultLabel.innerHTML = x + y;
-  } else if (operation == 2) {
-    resultLabel.innerHTML = x - y;
-  } else if (operation == 3) {
-    resultLabel.innerHTML = x * y;
-  } else if (operation == 4) {
-    resultLabel.innerHTML = x / y;
+  if (operation === 1) {
+    resultLabel.innerHTML = String(x + y);
+  } else if (operation === 2) {
+    resultLabel.innerHTML = String(x - y);
+  } else if (operation === 3) {
+    resultLabel.innerHTML = String(x * y);
+  } else if (operation === 4) {
+    resultLabel.innerHTML = String(x / y);
   }
 }
