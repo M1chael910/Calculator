@@ -1,7 +1,4 @@
 function Calculate(operation) {
-  const firstBox = document.getElementById("first-box");
-  const secondBox = document.getElementById("second-box");
-  const resultLabel = document.getElementById("results-label");
   let x = Number(firstBox.value);
   let y = Number(secondBox.value);
   if (operation === 1) {
@@ -13,4 +10,13 @@ function Calculate(operation) {
   } else if (operation === 4) {
     resultLabel.innerHTML = String(x / y);
   }
+}
+
+
+
+
+function display() { 
+
+
+  
 }
